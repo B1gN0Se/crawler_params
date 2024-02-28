@@ -20,7 +20,7 @@ Now that all the tools have been installed, create a wordlist with the subdomain
 for y in $(cat subdomains_final); do gau "$y" | grep "=" | sort | uniq | httpx_bug -silent >> urls; done;
 ```
 ```sh
-for y in $(cat subdomains_final); do katana -silent -d 5 url "$y" | grep "=" >> urls; done;
+for y in $(cat subdomains_final); do katana -silent -d 5 -u "$y" | grep "=" >> urls; done;
 ```
 ```sh
 cat urls | sort | uniq | uro >> urls_final
