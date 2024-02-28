@@ -2,7 +2,7 @@
 
 Tested on **Kali Linux**  
 
-**Description:** The install.sh file will install the necessary tools to perform subdomain crawling. Always remember that this does not replace manual crawling; however, it is a great option for automation. Follow the steps below to install the tools and perform the crawling."
+**Description:** The install.sh file will install the necessary tools to perform subdomain crawling. Always remember that this does not replace manual crawling; however, it is a great option for automation. Follow the steps below to install the tools and perform the crawling.
 
 **Steps:**
 ```sh
