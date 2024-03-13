@@ -17,14 +17,5 @@ chmod +x install.sh && ./install.sh
 Now that all the tools have been installed, create a wordlist with the subdomains named 'subdomains_final' and execute the following steps:  
 
 ```sh
-for y in $(cat subdomains_final); do gau "$y" | grep "=" | sort | uniq | httpx_bug -silent >> urls; done;
-```
-```sh
-for y in $(cat subdomains_final); do katana -u "$y" -f qurl -d 10 -silent >> urls; done;
-```
-```sh
-cat urls | sort | uniq | uro >> urls_final
-```
-```sh
-rm urls
+chmod +x crawler.sh && ./crawler.sh
 ```
