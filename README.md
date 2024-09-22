@@ -19,3 +19,8 @@ Now that all the tools have been installed, create a wordlist with the subdomain
 ```sh
 chmod +x crawler.sh && ./crawler.sh
 ```
+Run the command below to remove the values of the parameters if you want to....
+
+```sh
+chmod +x remove_values_parameters.py && python3 remove_values_parameters.py
+```
