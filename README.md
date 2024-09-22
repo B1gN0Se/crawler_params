@@ -9,7 +9,7 @@ Tested on **Kali Linux**
 git clone https://github.com/B1gN0Se/crawler_params.git
 ```
 ```sh
-cd crawler
+cd crawler_params
 ```
 ```sh
 chmod +x install.sh && ./install.sh
