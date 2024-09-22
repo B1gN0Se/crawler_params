@@ -6,7 +6,7 @@ Tested on **Kali Linux**
 
 **Steps:**
 ```sh
-git clone https://github.com/b1gn0se/crawler.git
+git clone https://github.com/B1gN0Se/crawler_params.git
 ```
 ```sh
 cd crawler
